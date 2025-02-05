@@ -70,13 +70,13 @@ function App() {
       if (color === targetColor) {
         setScore((prevScore) => prevScore + 1);
         setWinCount((prev) => prev + 1);
-        setGameStatus("Correct! 🎉");
+        setGameStatus("You got it right!!!!!!");
         playSound(winSound);
         setTimeout(() => startNewGame(), 2000);
       } else {
         setLives((prevLives) => prevLives - 1);
         setLoseCount((prev) => prev + 1);
-        setGameStatus("You Are Wrong! ❌");
+        setGameStatus("You Are Wrong!!!!!");
         playSound(wrong);
         setTimeout(() => {
           setGameStatus("");
