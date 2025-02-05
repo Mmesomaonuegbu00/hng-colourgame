@@ -4,8 +4,10 @@ body {
   font-family: "Merriweather", serif;
   margin: 10px;
   text-align: center;
-  background: linear-gradient(rgb(119, 134, 77), rgb(104, 116, 73));
-
+  background: linear-gradient(to right,rgb(162, 172, 135), rgb(104, 116, 73));
+  background-size: cover;
+  height: 100%;
+  
 }
 
 .game-container {
@@ -13,7 +15,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 60%;
-  min-width: 330px;
+  min-width: 340px;
   margin: 2rem auto;
   background: rgb(250, 246, 246);
   padding: 20px;
@@ -248,6 +250,10 @@ button:hover {
 
   .colour-div {
     gap: 1px;
+  }
+
+  .score p {
+    font-size: 16px;
   }
 }
 
